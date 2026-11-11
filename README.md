@@ -6,6 +6,8 @@ Two Claude Code skills for engineers who write an RFC from a PRD.
 
 **What the skills do:** they remember which PRD version (and which Figma designs) the RFC was built on. Every day they report what changed since then, map each change to the RFC section it affects, and draft a change-request note for business. They can also propose matching RFC edits, which are applied only when you confirm each one.
 
+> 📖 **Illustrated guide:** [PRD Watch Guide](https://claude.ai/artifact/SRT6HS2XHbLhEqpJwrbAfE?sk=aObN2IoHejcX_nZ6XqwK3Q): install, daily use, RFC updates and Figma checks on one page.
+
 | Skill | Checks | Runs | Writes anywhere? |
 |---|---|---|---|
 | `prd-watch` | Confluence PRDs against your Confluence RFC | Daily (cron) or on demand | Local reports only. Writes to the RFC **only** in `rfc-update`, after you confirm each edit |
